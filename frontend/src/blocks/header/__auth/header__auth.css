@@ -1,0 +1,11 @@
+.header__auth {
+  display: flex;
+  align-items: center;
+  grid-gap: 10px;
+}
+
+@media screen and (max-width: 475px) {
+  .header__auth {
+   flex-direction: column;
+  }
+}

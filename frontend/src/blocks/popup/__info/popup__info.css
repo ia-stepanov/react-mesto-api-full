@@ -1,0 +1,14 @@
+.popup__info {
+  box-sizing: border-box;
+  position: relative;
+  width: calc((100vw - 320px) / (1280 - 320) * (430 - 280) + 280px);
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, .15);
+}
+
+@media screen and (min-width: 1280px) {
+  .popup__info {
+    width: 430px;
+  }
+}

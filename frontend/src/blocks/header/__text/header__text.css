@@ -1,0 +1,13 @@
+.header__text {
+  margin: 0;
+  font-size: calc((100vw - 320px) / (1280 - 320) * (18 - 14) + 14px);
+  line-height: calc((100vw - 320px) / (1280 - 320) * (22 - 17) + 17px);
+}
+
+@media screen and (min-width: 1280px){
+  .header__text{
+    margin: 0;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

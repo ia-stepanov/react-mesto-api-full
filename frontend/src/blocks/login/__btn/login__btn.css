@@ -1,0 +1,26 @@
+.login__btn {
+  width: 100%;
+  min-height: calc((100vw - 320px) / (1280 - 320) * (50 - 46) + 46px);
+  margin: calc((100vw - 320px) / (1280 - 320) * (216 - 173) + 173px) 0 0;
+  border: none;
+  border-radius: 2px;
+  background-color: #fff;
+  color: #000;
+  font-size: calc((100vw - 320px) / (1280 - 320) * (18 - 16) + 16px);
+  line-height: calc((100vw - 320px) / (1280 - 320) * (21.5 - 18) + 18px);
+  transition: opacity 0.2s linear;
+}
+
+.login__btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1280px) {
+  .login__btn {
+    min-height: 50px;
+    margin: 216px 0 0;
+    font-size: 18px;
+    line-height: 21.5px;
+  }
+}

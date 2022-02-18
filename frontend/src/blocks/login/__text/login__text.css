@@ -1,0 +1,11 @@
+.login__text {
+  margin-top: calc((100vw - 320px) / (1280 - 320) * (15 - 20) + 20px);
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@media screen and (min-width: 1280px){
+  .login__text {
+    margin: 15px 0 0;
+  }
+}

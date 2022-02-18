@@ -1,0 +1,14 @@
+.login__title {
+  margin: calc((100vw - 320px) / (1280 - 320) * (62 - 42) + 42px) 0 calc((100vw - 320px) / (1280 - 320) * (43 - 33) + 33px);
+  font-size: calc((100vw - 320px) / (1280 - 320) * (24 - 20) + 20px);
+  font-weight: 900;
+  line-height: calc((100vw - 320px) / (1280 - 320) * (29 - 21) + 24px);
+}
+
+@media screen and (min-width: 1280px){
+  .login__title {
+    margin: 62px 0 43px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+}

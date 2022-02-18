@@ -1,0 +1,21 @@
+.header__link {
+  margin-right: calc((100vw - 320px) / (1280 - 320) * (0 - 20) + 20px);
+  color: #fff;
+  font-size: calc((100vw - 320px) / (1280 - 320) * (18 - 14) + 14px);
+  line-height: calc((100vw - 320px) / (1280 - 320) * (22 - 17) + 17px);
+  text-decoration: none;
+  transition: opacity .2s linear;
+}
+
+.header__link:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1280px){
+  .header__link {
+    margin-right: 0;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

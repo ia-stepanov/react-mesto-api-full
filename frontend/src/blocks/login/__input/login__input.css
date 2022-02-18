@@ -1,0 +1,22 @@
+.login__input {
+  width: calc((100vw - 320px) / (1280 - 320) * (354 - 260) + 260px);
+  margin: 0 0 23px;
+  outline: none;
+  border: none;
+  background: none;
+  border-bottom: 2px solid #ccc;
+  color: #fff;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.login__input:last-of-type {
+  margin: 0;
+}
+
+@media screen and (min-width: 1280px) {
+  .login__input {
+    width: 354px;
+  }
+}
+
