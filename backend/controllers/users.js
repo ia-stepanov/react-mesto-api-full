@@ -76,7 +76,7 @@ const updateUser = (req, res, next) => {
   return User.findByIdAndUpdate(
     req.user._id,
     { name, about },
-    { new: true }
+    { new: true },
   ).orFail(() => {
     throw new NotFound('Пользователь с указанным _id не найден');
   })
@@ -96,7 +96,7 @@ const updateAvatar = (req, res, next) => {
   return User.findByIdAndUpdate(
     req.user._id,
     { avatar },
-    { new: true }
+    { new: true },
   ).orFail(() => {
     throw new NotFound('Пользователь с указанным _id не найден');
   })
